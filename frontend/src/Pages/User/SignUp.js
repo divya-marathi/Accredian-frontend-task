@@ -67,7 +67,7 @@ function SignUp() {
     }
 
     try {
-      const response = await axios.post("http://localhost:5000/register", {
+      const response = await axios.post("https://accredian-backend-sqtv.onrender.com/register", {
         username: formData.username,
         email: formData.email,
         password: formData.password,

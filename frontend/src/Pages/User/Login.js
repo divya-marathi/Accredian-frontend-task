@@ -52,7 +52,7 @@ function Login() {
     setPassword(false);
 
     try {
-      let response = await axios.post("http://localhost:5000/login", {
+      let response = await axios.post("https://accredian-backend-sqtv.onrender.com/login", {
         email: formData.email,
         password: formData.password,
       });
